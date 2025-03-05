@@ -1,0 +1,9 @@
+table th,td{
+    border:2px solid rgb (255,255,)
+    border-collapse: collapse;
+    border-radius: 10px;
+    broder style:dotted;
+}
+th,td{
+    background-color: #6f75d7;
+}

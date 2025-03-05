@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            color: #333;
+            scroll-behavior: smooth;
+            padding-left: 20px;
+        }
+    
+        .intro, .about, .hobbies, .Certifications {
+            padding: 20px;
+            text-align: left;
+        }
+        .profile img {
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.2);
+            margin: 20px 0;
+            display: block;
+            transition: transform 0.3s ease-in-out;
+        }
+        .profile img:hover {
+            transform: scale(1.1);
+        }
+        .interest-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            gap: 15px;
+            padding: 0;
+            margin-top: 20px;
+            list-style: none;
+        }
+        .interest-item {
+            padding: 10px 20px;
+            border-radius: 8px;
+            background: #1e3a8a;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+        .interest-item:hover {
+            background: #3b82f6;
+            transform: scale(1.1);
+        }
+        ul {
+            padding-left: 20px;
+        }
+        select {
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+<h1 style="font-size: 28px; font-weight: bold;"> Welcome to My Portfolio </h1>
+
+<section class="profile">
+    <img src="me.jpg" alt="Profile Picture">
+</section>
+
+<section class="about">
+    <h1>About Me</h1>
+    <p>Hello! I’m Bhakti, an enthusiastic undergraduate student currently pursuing BSc. (Hons) CSE at Karnavati University. I’m passionate about technology, design, entrepreneurship, and thrive on opportunities to learn, grow, and contribute meaningfully. Currently, I’m focused on a research project, developing a portfolio, and an internship that allows me to apply my classroom knowledge to practical experiences. I aspire to contribute to innovative projects, develop impactful solutions, create meaningful work, and make a positive impact in Data Analysis.</p>
+    <p>
+        <a href="https://www.w3schools.com/">HTML Tutorial</a>
+    </p>
+    <h3>My Interests:</h3>
+    <ul class="interest-list">
+        <li class="interest-item">AI & Machine Learning</li>
+        <li class="interest-item">Software Development</li>
+        <li class="interest-item">Cloud Computing</li>
+        <li class="interest-item">Data Science</li>
+    </ul>
+</section>
+
+<section class="Certifications">
+    <h3>Certifications:</h3>
+    <ul>
+        <li>AI & Machine Learning - Coursera</li>
+        <li>Cloud Computing Fundamentals - AWS Academy</li>
+        <li>Data Science with Python - Udacity</li>
+    </ul>
+</section>
+
+<section class="hobbies"> 
+    <h2>My Hobbies</h2>
+    <select>
+        <option value="Reading">Reading</option>
+        <option value="Coding">Coding</option>
+        <option value="Designing">Designing</option>
+        <option value="Traveling">Traveling</option>
+    </select>
+</section>
+
+</body>
+</html>

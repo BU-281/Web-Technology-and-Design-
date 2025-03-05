@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background: linear-gradient(to right, #ff9a9e, #fad0c4);
+            color: white;
+        }
+        marquee {
+            background-color: rgba(239, 239, 18, 0.9);
+            padding: 10px;
+            font-weight: bold;
+            color: black;
+            font-size: 20px;
+        }
+        .hero {
+            height: 50vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        .hero h1 {
+            font-size: 50px;
+            margin-bottom: 10px;
+        }
+        .hero p {
+            font-size: 22px;
+            max-width: 700px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">My Website</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="main.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="p1.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="p2.html">Timetable</a></li>
+                    <li class="nav-item"><a class="nav-link" href="p3.html">Results</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts .html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <marquee>Welcome to my website! Stay updated with the latest information.</marquee>
+    
+    <div class="hero">
+        <h1>Welcome to My Website</h1>
+        <p>Explore my website to learn more about me, view my timetable, and check my latest results.</p>
+    </div>
+
+    <div class="container text-center py-5">
+        <div class="row">
+            <div class="col-md-4 mb-3">
+                <div class="card bg-light text-dark p-3">
+                    <h2>About This Website</h2>
+                    <p>This platform provides all the necessary details about my schedule, activities, and results.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-light text-dark p-3">
+                    <h2>Latest Updates</h2>
+                    <p>New timetable uploaded! Check the latest changes and upcoming events in the timetable section.</p>
+                </div>
+            </div>
+            <div class="col-md-4 mb-3">
+                <div class="card bg-light text-dark p-3">
+                    <h2>Contact Me</h2>
+                    <p>If you have any queries or suggestions, feel free to reach out. Your feedback is always welcome!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="bg-dark text-white text-center py-3">
+        <p>Demo Website For Assignment </p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

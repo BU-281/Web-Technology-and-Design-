@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Class Time Table</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1, h2, h3 {
+            color: black;
+        }
+
+        table {
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            border: 3px solid black; /* Added thick border */
+        }
+
+        th, td {
+            border: 2px solid black; /* Added border to all cells */
+            text-align: center;
+            padding: 10px;
+            font-size: 16px;
+        }
+
+        th {
+            font-weight: bold;
+            height: 60px;
+        }
+
+        /* Bold time slots */
+        th:first-child, td:first-child {
+            font-weight: bold;
+        }
+
+        /* Background logo adjustments */
+        img {
+            position: absolute;
+            top: 200px;
+            left: 50%;
+            transform: translateX(-50%);
+            z-index: -1;
+            opacity: 0.2; /* Reduced opacity to make text more visible */
+            height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <img src="Karnavati-University-Logo.webp">
+    <h1>UNITEDWORLD INSTITUTE OF TECHNOLOGY</h1>
+    <h2>Department of Computer Science</h2>
+    <h3 style="text-decoration: underline;">Class Time Table</h3>
+
+    <table>
+        <tr>
+            <th><b>11:00-11:50</b></th>
+            <th><b>11:50-12:40</b></th>
+            <th><b>12:30-1:30</b></th>
+            <th><b>1:30-2:30</b></th>
+            <th><b>2:30-3:10</b></th>
+            <th><b>3:10-4:30</b></th>
+            <th><b>4:30-5:10</b></th>
+        </tr>
+        <tr>
+            <th>Monday</th>
+            <td>IML</td>
+            <td>Operating System</td>
+            <td rowspan="6"><b>Lunch</b></td>
+            <td>LR & LD</td>
+            <td>WTD</td>
+            <td>WTD</td>
+        </tr>
+        <tr>
+            <th>Tuesday</th>
+            <td>IML</td>
+            <td>Library</td>
+            <td>LR & LD</td>
+            <td>WTD</td>
+            <td>OOPJ</td>
+        </tr>
+        <tr>
+            <th>Wednesday</th>
+            <td>IML</td>
+            <td>Operating System</td>
+            <td>LR & LD</td>
+            <td>WTD</td>
+            <td>OOPJ</td>
+        </tr>
+        <tr>
+            <th>Thursday</th>
+            <td>IML</td>
+            <td>Operating System</td>
+            <td>LR & LD</td>
+            <td>WTD</td>
+            <td>OOPJ</td>
+        </tr>
+        <tr>
+            <th>Friday</th>
+            <td>IML</td>
+            <td>Operating System</td>
+            <td>LR & LD</td>
+            <td>WTD</td>
+            <td>Library</td>
+        </tr>
+    </table>
+</body>
+</html>
